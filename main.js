@@ -42,7 +42,7 @@ app.post("/confess", async(req,res)=>{
 
 app.get("/getConfessions",async(req,res)=>{
     try{
-        const data = collection.find({});
+        const data = collection.find({}).sort({"id":-1});
         list = []
         await data.forEach(doc=>{
             list.push({
