@@ -7,7 +7,7 @@ app.use(cors())
 app.use(express.json())
 const port = process.env.PORT || 3001;
 
-const connectionString = "mongodb+srv://akashkamat:akashkamat10@mytestdb.ducrb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const connectionString = "";
 const client = new MongoClient(connectionString);
 
 client.connect();
