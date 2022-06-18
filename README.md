@@ -6,4 +6,4 @@
 
 ## [Read Documentation here](https://github.com/akash-kamat/confus-frontend#readme)
 
-[App live here](https://akash-kamat.github.io/confus/)
+[App live here](https://confus.netlify.app)
